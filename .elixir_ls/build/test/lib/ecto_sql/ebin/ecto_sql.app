@@ -1,5 +1,5 @@
 {application,ecto_sql,
-             [{config_mtime,1724429703},
+             [{config_mtime,1724497850},
               {optional_applications,[postgrex,myxql,tds]},
               {applications,[kernel,stdlib,elixir,logger,eex,ecto,telemetry,
                              db_connection,postgrex,myxql,tds]},

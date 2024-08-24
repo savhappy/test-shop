@@ -21,8 +21,7 @@ defmodule TestShop.Application do
       # Start a worker by calling: TestShop.Worker.start_link(arg)
       # {TestShop.Worker, arg},
       # Start to serve requests, typically the last entry
-      TestShopWeb.Endpoint,
-      ShopifyAPI.Supervisor
+      TestShopWeb.Endpoint
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

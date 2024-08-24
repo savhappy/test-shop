@@ -1,5 +1,5 @@
 {application,httpoison,
-             [{config_mtime,1724429703},
+             [{config_mtime,1724497851},
               {optional_applications,[]},
               {applications,[kernel,stdlib,elixir,hackney]},
               {description,"Yet Another HTTP client for Elixir powered by hackney"},
@@ -15,4 +15,4 @@
                         'Elixir.HTTPoison.Request',
                         'Elixir.HTTPoison.Response']},
               {registered,[]},
-              {vsn,"2.2.1"}]}.
+              {vsn,"1.8.2"}]}.

@@ -1,5 +1,5 @@
 {application,mime,
-             [{config_mtime,1724429703},
+             [{config_mtime,1724497851},
               {compile_env,[{mime,[extensions],error},
                             {mime,[suffixes],error},
                             {mime,[types],error}]},

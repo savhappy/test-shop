@@ -1,5 +1,5 @@
 {application,sentry,
-             [{config_mtime,1724429703},
+             [{config_mtime,1724497851},
               {optional_applications,[hackney,jason,plug,telemetry]},
               {applications,[kernel,stdlib,elixir,logger,nimble_options,
                              nimble_ownership,hackney,jason,plug,telemetry]},

@@ -1,5 +1,5 @@
 {application,nimble_ownership,
-             [{config_mtime,1724429703},
+             [{config_mtime,1724497851},
               {optional_applications,[]},
               {applications,[kernel,stdlib,elixir]},
               {description,"Track ownership of resources across processes."},

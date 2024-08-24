@@ -1,5 +1,5 @@
 {application,jose,
-             [{config_mtime,1724429703},
+             [{config_mtime,1724497851},
               {optional_applications,[]},
               {applications,[kernel,stdlib,elixir,crypto,asn1,public_key]},
               {description,"JSON Object Signing and Encryption (JOSE) for Erlang and Elixir."},

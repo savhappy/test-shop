@@ -35,3 +35,13 @@ test_shop-*.tar
 npm-debug.log
 /assets/node_modules/
 
+/_build
+/deps
+erl_crash.dump
+*.ez
+/doc
+/plts/*.plt
+/plts/*.plt.hash
+/cover
+
+

@@ -1,5 +1,5 @@
 {application,ssl_verify_fun,
-             [{config_mtime,1724429703},
+             [{config_mtime,1724497851},
               {optional_applications,[]},
               {applications,[kernel,stdlib,ssl]},
               {modules,[ssl_verify_fingerprint,ssl_verify_fun_cert_helpers,

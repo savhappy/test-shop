@@ -1,5 +1,5 @@
 {application,floki,
-             [{config_mtime,1724429703},
+             [{config_mtime,1724497850},
               {optional_applications,[]},
               {applications,[kernel,stdlib,elixir,logger]},
               {description,"Floki is a simple HTML parser that enables search for nodes using CSS selectors."},

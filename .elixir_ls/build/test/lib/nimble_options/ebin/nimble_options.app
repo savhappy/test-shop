@@ -1,5 +1,5 @@
 {application,nimble_options,
-             [{config_mtime,1724429703},
+             [{config_mtime,1724497851},
               {optional_applications,[]},
               {applications,[kernel,stdlib,elixir]},
               {description,"A tiny library for validating and documenting high-level options"},

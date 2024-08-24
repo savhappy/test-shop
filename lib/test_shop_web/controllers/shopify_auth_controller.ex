@@ -1,12 +1,15 @@
 defmodule TestShopWeb.ShopifyAuthController do
   use TestShopWeb, :controller
+  use ShopifexWeb.AuthController
 
-  def post_install(conn, _params) do
-    redirect(conn, to: "/")
-  end
+  # Optional: Override callbacks to customize behavior
+  @impl true
+  def after_install(conn, shop, _state) do
+    # Custom logic after installation
+    IO.puts("Installation completed for shop #{shop.url}")
 
-  def run_app(conn, _params) do
-    redirect(conn, to: "/")
+    # Redirect to your custom URL
+    redirect(conn, external: "https://yourstandaloneapp.com/dashboard")
   end
 
   # def callback(conn, %{"code" => code, "shop" => shop_name}) do
